@@ -13,7 +13,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "rg-lab-githubaction"
-  location = "France Central"
+  location = "West Europe"
 }
 
 resource "azurerm_virtual_network" "vnet" {
